@@ -1,0 +1,17 @@
+.idea
+*.pyc
+build
+dist
+*.egg-info
+.ipynb_checkpoints
+*.ipynb
+.DS_Store
+xcuserdata
+Demo/Temp
+Demo/Library
+Demo/obj
+*.csproj
+*.userprefs
+UploadServer/Photo
+cmake-build*
+eigen-git-mirror
