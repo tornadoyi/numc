@@ -31,7 +31,7 @@ NS_INTERNAL_BEGIN
 
 /** \internal
   * \file Meta.h
-  * This file contains generic metaprogramming classes which are not specifically related to Eigen.
+  * This file contains generic metaprogramming classes which are not specifically related to numc.
   * \note In case you wonder, yes we're aware that Boost already provides all these features,
   * we however don't want to add a dependency to Boost.
   */
