@@ -42,9 +42,13 @@ public:
 
     inline Index dims() const { return _dims; }
 
-    inline Index operator[](Index i) const { return _data[i];}
+    inline Index operator[](Index i) const
+    {
+        nc_assert(i < MAX_ARRAY_DIMENSIONS);
+        return _data[i];
+    }
 
-    friend std::ostream &operator << (std::ostream &s, const Shape& shape)    //进来后又出去
+    friend std::ostream &operator << (std::ostream &s, const Shape& shape)
     {
         s << "(";
         for(Index i=0; i<shape.dims(); ++i)

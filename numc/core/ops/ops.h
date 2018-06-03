@@ -8,8 +8,10 @@
 // with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-#ifndef __NC_MEMORY_H__
-#define __NC_MEMORY_H__
+#ifndef __NC_OPS_H__
+#define __NC_OPS_H__
 
+
+#include "cwise_binary_op.h"
 
 #endif

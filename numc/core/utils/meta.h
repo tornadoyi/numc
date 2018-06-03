@@ -342,9 +342,9 @@ template<> struct numeric_limits<unsigned long long>
   */
 #if NC_HAS_STD_RESULT_OF
         template<typename T> struct result_of {
-  typedef typename std::result_of<T>::type type1;
-  typedef typename remove_all<type1>::type type;
-};
+          typedef typename std::result_of<T>::type type1;
+          typedef typename remove_all<type1>::type type;
+        };
 #else
         template<typename T> struct result_of { };
 

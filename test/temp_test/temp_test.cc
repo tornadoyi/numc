@@ -2,19 +2,25 @@
 #include <iostream>
 #include "numc.h"
 #include "../../eigen-git-mirror/Eigen/Eigen"
+//#include "test.h"
 
 using namespace std;
 
 using namespace numc;
 
+//using namespace Eigen;
+
+
 
 int main()
 {
-    Shape s0(3, 4, 5);
+    Array<float> a(2, 2);
+    Array<float> b(2, 2);
+    Array<float> c(2, 2);
+    auto op = a + b;
 
-    cout << s0 << endl;
+    auto op2 = op + c;
 
-    cout << s0.size() << endl;
 
 
     return 0;

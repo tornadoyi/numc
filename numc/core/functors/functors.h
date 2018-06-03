@@ -8,8 +8,11 @@
 // with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-#ifndef __NC_MEMORY_H__
-#define __NC_MEMORY_H__
+#ifndef __NC_FUNCTORS_H__
+#define __NC_FUNCTORS_H__
+
+
+#include "binary_functors.h"
 
 
 #endif

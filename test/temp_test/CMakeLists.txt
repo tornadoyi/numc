@@ -10,7 +10,7 @@ SET (CMAKE_CXX_COMPILER "/usr/bin/clang++")
 include("../../numc/numc.cmake")
 
 aux_source_directory(. SOURCES)
-add_compile_options(-std=c++11 -march=native -save-temps -O3 -Rpass=loop-vectorize -Rpass-missed=loop-vectorize)  #-march=skylake-avx512
+add_compile_options(-std=c++11 -march=native -save-temps  -Rpass=loop-vectorize -Rpass-missed=loop-vectorize)  #-march=skylake-avx512
 set(CMAKE_VERBOSE_MAKEFILE on)
 
 # message for all information
